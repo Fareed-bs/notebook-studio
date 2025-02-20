@@ -17,7 +17,7 @@ if "chat_history" not in st.session_state:
 # Function to call LM Studio API
 def query_lm(prompt):
     payload = {
-        "model": "Your-Model-Name",  # Replace with the model name in LM Studio
+        "model": "llama-3.2-1b-instruct",  # Replace with the model name in LM Studio
         "prompt": prompt,
         "max_tokens": 300,
         "temperature": 0.5
